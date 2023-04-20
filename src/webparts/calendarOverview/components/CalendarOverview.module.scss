@@ -1,0 +1,80 @@
+@import '~@fluentui/react/dist/sass/References.scss';
+
+.calendarOverview {
+  overflow: hidden;
+  padding: 1em;
+  color: "[theme:bodyText, default: #323130]";
+  color: var(--bodyText);
+  &.teams {
+    font-family: $ms-font-family-fallbacks;
+  }
+}
+
+.welcome {
+  text-align: center;
+}
+
+.welcomeImage {
+  width: 100%;
+  max-width: 420px;
+}
+
+.links {
+  a {
+    text-decoration: none;
+    color: "[theme:link, default:#03787c]";
+    color: var(--link); // note: CSS Custom Properties support is limited to modern browsers only
+
+    &:hover {
+      text-decoration: underline;
+      color: "[theme:linkHovered, default: #014446]";
+      color: var(--linkHovered); // note: CSS Custom Properties support is limited to modern browsers only
+    }
+  }
+}
+
+/* CSS for task-details-popup */
+.task-details-popup {
+  position: absolute;
+  bottom: 25%; /* Position above the calendar */
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: #ffffff;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  padding: 20px;
+  max-width: 400px;
+  width: 100%;
+  max-height: 80vh;
+  overflow-y: auto;
+  z-index: 9999;
+}
+
+.task-details-popup h2 {
+  font-size: 24px;
+  margin-top: 0;
+}
+
+.task-details-popup p {
+  margin-bottom: 10px;
+}
+
+/* CSS for task-details-popup buttons */
+.task-details-popup button {
+  background-color: #0078d4;
+  color: #ffffff;
+  border: none;
+  padding: 10px 15px;
+  cursor: pointer;
+  font-size: 16px;
+  border-radius: 5px;
+  margin-right: 10px; /* Add margin to the right for spacing */
+}
+
+.task-details-popup button:last-child {
+  margin-right: 0; /* Remove margin from the last button */
+}
+
+.task-details-popup button:hover {
+  background-color: #005a9e;
+}
