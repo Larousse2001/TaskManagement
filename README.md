@@ -28,7 +28,7 @@ This is a web-based task management application that allows users to create, edi
 git clone https://github.com/Larousse2001/TaskManagement.git
 2. Install the dependencies using `npm install` or `yarn install` command.
 3. Run the application locally using `npm run start` or `yarn start` command.
-4. Access the application in your web browser at `http://localhost:3000` (or the specified port).
+4. Access the application in your web browser at `http://localhost:4321` 
 
 ## Usage
 
