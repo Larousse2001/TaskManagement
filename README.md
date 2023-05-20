@@ -2,6 +2,8 @@
 
 This is a web-based task management application that allows users to create, edit, and track tasks, as well as prioritize and categorize them by status. The application features intuitive drag and drop functionality and a streamlined user interface that enables users to view tasks in multiple ways, including a calendar view, a Gantt chart, and a list view.
 
+![Alt calendaroverview](/teams/aa.png)
+
 ## Features
 
 - Create, edit, and track tasks with customizable details such as title, description, due date, priority, and category.
