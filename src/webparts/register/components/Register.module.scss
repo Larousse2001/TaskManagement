@@ -1,0 +1,85 @@
+@import '~@fluentui/react/dist/sass/References.scss';
+
+/* eslint-disable @typescript-eslint/no-explicit-any */
+/* eslint-disable @typescript-eslint/explicit-function-return-type */
+/* eslint-disable react/self-closing-comp */
+
+.register {
+  overflow: hidden;
+  padding: 1em;
+  color: "[theme:bodyText, default: #323130]";
+  color: var(--bodyText);
+}
+
+.teamOv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.column {
+  flex: 1;
+}
+
+.itemField {
+  margin-bottom: 1rem;
+}
+
+.fieldLabel {
+  font-weight: bold;
+  margin-bottom: 0.25rem;
+}
+
+.inputField {
+  width: 100%;
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.selectField {
+  width: 100%;
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background-color: #fff;
+}
+
+.buttonSection {
+  display: flex;
+  justify-content: center;
+}
+
+.button {
+  margin-right: 0.5rem;
+  cursor: pointer;
+}
+
+.label {
+  display: inline-block;
+  padding: 0.5rem;
+  background-color: #0078d4;
+  color: #fff;
+  font-weight: bold;
+  border-radius: 4px;
+}
+
+.label:hover {
+  background-color: #005a9e;
+}
+
+.title {
+  text-align:center;
+  font-size:24px;
+}

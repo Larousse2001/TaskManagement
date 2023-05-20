@@ -1,0 +1,167 @@
+@import '~@fluentui/react/dist/sass/References.scss';
+
+/* eslint-disable @typescript-eslint/no-explicit-any */
+/* eslint-disable @typescript-eslint/explicit-function-return-type */
+/* eslint-disable react/self-closing-comp */
+
+.teamOverview {
+  overflow: hidden;
+  padding: 1em;
+  color: "[theme:bodyText, default: #323130]";
+  color: var(--bodyText);
+}
+
+.teamOv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.column {
+  flex: 1;
+}
+
+.itemField {
+  margin-bottom: 3rem;
+  width: 206px;
+  height: 34px;
+}
+
+.fieldLabel {
+  font-weight: bold;
+  margin-bottom: 0.25rem;
+  margin-top: 0.5rem;
+  width: 206px;
+  height: 34px;
+}
+
+.fieldInput {
+  margin-bottom: 0.25rem;
+  width: 200px;
+  height: 28px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.inputField {
+  margin-bottom: 0.25rem;
+  width: 150px;
+  height: 30px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.dateInput {
+  margin-bottom: 0.25rem;
+  width: 203px;
+  height: 29px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.selectField {
+  margin-bottom: 0.25rem;
+  width: 205px;
+  height: 32px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.buttonSection {
+  display: flex;
+  justify-content: center;
+}
+
+.button {
+  margin-right: 0.5rem;
+  cursor: pointer;
+}
+
+.label {
+  display: inline-block;
+  padding: 0.5rem;
+  background-color: #0078d4;
+  color: #fff;
+  font-weight: bold;
+  border-radius: 4px;
+}
+
+.label:hover {
+  background-color: #005a9e;
+}
+
+.title {
+  text-align:center;
+  font-size:24px;
+}
+
+/* CSS for task-details-popup */
+.task-details-popup {
+  position: absolute;
+  top: 230px; /* Position above the calendar */
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: #ffffff;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  padding: 20px;
+  max-width: 400px;
+  width: 100%;
+  max-height: 80vh;
+  overflow-y: auto;
+  z-index: 9999;
+}
+
+.task-details-popup h2 {
+  font-size: 24px;
+  margin-top: 0;
+}
+
+.task-details-popup p {
+  margin-bottom: 10px;
+}
+
+/* CSS for task-details-popup buttons */
+.task-details-popup button {
+  background-color: #0078d4;
+  color: #ffffff;
+  border: none;
+  padding: 10px 15px;
+  cursor: pointer;
+  font-size: 16px;
+  border-radius: 5px;
+  margin-right: 10px; /* Add margin to the right for spacing */
+}
+
+.task-details-popup button:last-child {
+  margin-right: 0; /* Remove margin from the last button */
+}
+
+.task-details-popup button:hover {
+  background-color: #005a9e;
+}
+
+.itemF {
+  margin-bottom: 1rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.fieldL {
+  margin-right: 5rem;
+  margin-left: 0.5rem;
+}
+
