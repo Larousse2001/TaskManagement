@@ -1,0 +1,30 @@
+declare const styles: {
+    calendarOverview: string;
+    teams: string;
+    welcome: string;
+    welcomeImage: string;
+    links: string;
+    'task-details-popup': string;
+    teamOv: string;
+    container: string;
+    row: string;
+    column: string;
+    itemField: string;
+    fieldLabel: string;
+    fieldInput: string;
+    inputField: string;
+    dateInput: string;
+    selectField: string;
+    buttonSection: string;
+    button: string;
+    label: string;
+    title: string;
+    special: string;
+    buttonSec: string;
+    itemF: string;
+    fieldL: string;
+    legend: string;
+    multiselect: string;
+};
+export default styles;
+//# sourceMappingURL=CalendarOverview.module.scss.d.ts.map
