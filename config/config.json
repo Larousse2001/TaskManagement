@@ -1,0 +1,46 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "calendar-overview-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/calendarOverview/CalendarOverviewWebPart.js",
+          "manifest": "./src/webparts/calendarOverview/CalendarOverviewWebPart.manifest.json"
+        }
+      ]
+    },
+    "hello-world-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/helloWorld/HelloWorldWebPart.js",
+          "manifest": "./src/webparts/helloWorld/HelloWorldWebPart.manifest.json"
+        }
+      ]
+    },
+    "team-overview-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/teamOverview/TeamOverviewWebPart.js",
+          "manifest": "./src/webparts/teamOverview/TeamOverviewWebPart.manifest.json"
+        }
+      ]
+    },
+    "register-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/register/RegisterWebPart.js",
+          "manifest": "./src/webparts/register/RegisterWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "HelloWorldWebPartStrings": "lib/webparts/helloWorld/loc/{locale}.js",
+    "CalendarOverviewWebPartStrings": "lib/webparts/calendarOverview/loc/{locale}.js",
+    "TeamOverviewWebPartStrings": "lib/webparts/teamOverview/loc/{locale}.js",
+    "RegisterWebPartStrings": "lib/webparts/register/loc/{locale}.js",
+    "ControlStrings": "node_modules/@pnp/spfx-controls-react/lib/loc/{locale}.js"
+  }
+}
